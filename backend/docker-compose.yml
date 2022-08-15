@@ -1,9 +1,10 @@
 ---
 
-version: '3.4'
+version: '3.9'
 
 services:
-  api:
+  backend:
     build: .
+    image: backend
     ports:
       - '80:80'
