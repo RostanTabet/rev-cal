@@ -1,0 +1,14 @@
+# Bytecode-compiled files
+__pycache__/
+
+# pyenv
+.python-version
+
+# pytest
+.pytest_cache
+
+# mypy
+.mypy_cache
+
+# IntelliJ
+.idea/
