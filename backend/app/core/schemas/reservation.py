@@ -1,11 +1,9 @@
-from datetime import datetime
-
 from pydantic import BaseModel, EmailStr
 
+from .time_range import TimeRange
 
-class ReservationBase(BaseModel):
-    start: datetime
-    end: datetime
+
+class ReservationBase(TimeRange, BaseModel):
     title: str
     email: EmailStr
 

@@ -1,2 +1,2 @@
-from .availability import Availability, AvailabilityCreate
-from .reservation import Reservation, ReservationCreate
+from .availability import AvailabilityBase, Availability, AvailabilityCreate
+from .reservation import ReservationBase, Reservation, ReservationCreate
