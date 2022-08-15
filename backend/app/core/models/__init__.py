@@ -1,2 +1,2 @@
-from .availabilities import Availability
-from .reservations import Reservation
+from .availability import Availability
+from .reservation import Reservation
