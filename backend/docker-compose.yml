@@ -24,12 +24,6 @@ services:
       - '8000:80'
     networks:
       - db
-    environment:
-      DB_HOST: db
-      DB_PORT: 5432
-      DB_USER: postgres
-      DB_PASSWORD: postgres
-      DB_NAME: postgres
 
 volumes:
   db:
