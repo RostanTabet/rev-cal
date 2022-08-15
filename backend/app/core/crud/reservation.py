@@ -1,5 +1,3 @@
-from sqlalchemy.orm import Session
-
 from .base import CRUDBase
 from .. import models, schemas
 
