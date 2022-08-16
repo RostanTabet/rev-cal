@@ -1,10 +1,13 @@
+from datetime import datetime
+
 from pydantic import BaseModel
 
 from .time_range import TimeRange
 
 
 class AvailabilityBase(TimeRange, BaseModel):
-    pass
+    start: datetime
+    end: datetime
 
 
 class AvailabilityCreate(AvailabilityBase):

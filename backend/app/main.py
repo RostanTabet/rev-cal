@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-import endpoints
+from api import endpoints
 from core.database import engine, Base
 
 # Initialize the database
